@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+font-family: Arial, Helvetica, sans-serif;
+    transition: all 0.2s linear;
+}
+
+
+/* universal section starts here */
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.container1{
+    width: 38%;
+    margin: 0 auto;
+}
+/* universal section ends here */
+
+/* header section starts here */
+header .head h1{
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    border: 1px solid;
+    width: 454px;
+   text-align: center;
+   background-color: blueviolet;
+   padding: 10px;
+   color: white;      
+}
+
+
+header .head{
+    margin-top: 10px;
+}
+
+/* header section ends here */
+
+
+/* nav section starts here */
+#nav-main{
+    display: flex;
+    align-items: center;
+}
+
+
+nav  ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  
+}
+
+.nav-top{
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+}
+
+nav ul li{
+   margin: 2rem;
+}
+
+nav  h2{
+ color: red;
+
+}
+
+
+#nav-main .sign-start{
+    display: flex;
+    align-items: center;
+}
+
+
+#nav-main ul .start-free{
+    background-color: blueviolet ;
+    padding: 1rem 2rem;
+    color: white;
+}
+
+#nav-main ul .start-free a{
+    color: white;
+}
+
+#nav-main .fa-user{
+    color: black;
+    
+}
+
+/* nav section ends here */
+
+
+
+
+/* payment section starts here */
+
+
+
+
+/* payment section ends here */
+
+
+
+/* companies starts here */
+#company{
+    margin-top: 40px;
+}
+
+
+#company h2{
+    text-align: center;
+    padding-bottom: 4rem;
+}
+
+
+#company .company-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#company .open{
+    display: flex;
+}
+
+#company .morph{
+    display: flex;
+}
+
+#company .monday{
+    display: flex;
+}
+
+
+#company .seg{
+    display: flex;
+}
+
+#company .protent{
+    display: flex;
+}
+/* companies ends here */
+
+
+/* description starts here */
+
+#description{
+    margin-top: 10rem;
+}
+#description h2{
+    text-align: center;
+    
+}
+
+
+#description .bar-main{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+
+ 
+}
+
+#description .bar-top{
+padding: 20px;
+}
+
+
+#description .bar2{
+   
+    padding: 20px;
+}
+
+#description .bar2{
+    display: flex;
+    align-items: center;
+}
+
+
+#description .wa h2{
+text-align: left;
+}
+
+#description .circle{
+    border: 1px solid;
+    width: 80px;
+    border-radius: 2rem;
+    height: 15rem;
+    margin: 10px;
+}
+
+#description .cir{
+    border: 1px solid;
+  background-color: blueviolet;
+    width: 80px;
+    border-radius: 2rem;
+    height: 15rem;
+    margin: 10px;
+}
+
+
+
+#description .ci{
+    border: 1px solid;
+    border-style: dotted;
+    width: 80px;
+    border-radius: 2rem;
+    height: 15rem;
+    margin: 10px;
+}
+
+#description .cant{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+gap: 8.4rem;
+padding: 10px;
+}
+
+
+#description .mywallet-top{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+#description .j{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 10px;
+   
+}
+
+
+
+#description .jj{
+    display: flex;
+    align-items: center;
+    gap: 12rem;
+   
+}
+
+
+#description .j-main{
+    display: flex;
+    align-items: center;
+   
+}
+
+#description .jjb{
+    display: flex;
+
+    align-items: center;
+    border: 1px solid;
+    margin: 10px;
+    width: 400px;
+}
+
+#description .description-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+/* fa section */
+#description .fa-circle{
+    font-size: 2rem;
+    color: rgb(155, 140, 140);
+}
+
+
+#description .fa-check-circle{
+    font-size: 2rem;
+    color: blueviolet;
+}
+
+
+/* fa section ends here */
+/* description ends here */
+
+
+/* description-down starts here */
+
+#description-down{
+    margin-top: 3rem;
+}
+
+#description-down .description-down-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+#description-down p{
+    text-align: justify;
+    line-height: 1.5rem;
+}
+
+
+#description-down h2{
+  padding-bottom: 1.5rem;
+}
+
+/* description-down ends here */
