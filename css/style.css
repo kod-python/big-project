@@ -250,7 +250,8 @@ gap: 10rem;
 #payment .payment-down{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    margin-top: -3rem;
+    /* justify-content: space-evenly; */
 
 }
 
@@ -276,6 +277,51 @@ gap: 10rem;
     background-color: green;
     margin: 10px;
 }
+
+
+#payment .cii{
+    display: flex;
+    align-items: center;
+   
+    margin: 10px;
+}
+
+
+#payment .ciii{
+    display: flex;
+    align-items: center;
+   
+ 
+}
+
+
+#payment .total{
+    display: flex;
+    align-items: center;
+    /* justify-content:space-evenly; */
+    margin-top: 40px;
+}
+
+
+
+#payment .payment-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+  
+}
+
+#payment .pay-all{
+    background-color: white;
+    
+
+}
+
+#payment .payment-one{
+    margin-top: -20rem;
+}
+
 
 /* payment section ends here */
 
