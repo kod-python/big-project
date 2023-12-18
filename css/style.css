@@ -8,6 +8,11 @@ font-family: Arial, Helvetica, sans-serif;
     transition: all 0.2s linear;
 }
 
+body{
+    background-color: aliceblue;
+ 
+}
+
 
 /* universal section starts here */
 .container{
@@ -35,8 +40,11 @@ header .head h1{
 }
 
 
+
 header .head{
     margin-top: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 /* header section ends here */
@@ -46,6 +54,7 @@ header .head{
 #nav-main{
     display: flex;
     align-items: center;
+
 }
 
 
@@ -53,6 +62,7 @@ nav  ul{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-left: 100px;
     
   
 }
@@ -61,10 +71,12 @@ nav  ul{
     display: flex;
     align-items: center;
     gap: 15rem;
+   
 }
 
 nav ul li{
-   margin: 2rem;
+   margin: 1rem;
+   font-size: 1.1rem;
 }
 
 nav  h2{
@@ -76,6 +88,7 @@ nav  h2{
 #nav-main .sign-start{
     display: flex;
     align-items: center;
+   
 }
 
 
@@ -102,7 +115,167 @@ nav  h2{
 /* payment section starts here */
 
 
+#payment{
+    padding: 5rem;
+}
 
+#payment .how{
+    display: flex;
+    align-items: center;
+   padding-bottom: 25px;
+}
+
+#payment .gad{
+    display: flex;
+    align-items: center;
+}
+
+#payment .free{
+    display: flex;
+}
+
+#payment .great{
+    display: flex;
+}
+
+#payment .free-great{
+    display: flex;
+    gap: 3rem;
+}
+
+#payment button{
+    padding: 0.7rem 3rem;
+    background-color: blueviolet;
+    border-radius: 0.5rem;
+}
+
+#payment .payment-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#payment .icons{
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+
+
+#payment .icons-main{
+    margin-top: 90px;
+}
+
+#payment .icons-revenue{
+
+    background-color: white;
+    padding: 25px;
+    width: 290px;
+    height: 160px;
+}
+
+
+
+#payment .re{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+
+
+#payment .summer{
+display: flex;
+align-items: center;
+gap: 2rem;
+margin-top: 20px;
+
+/* margin: 10px; */
+
+}
+
+
+#payment .wa{
+display: flex;
+align-items: center;
+gap: 10rem;
+}
+
+#payment .wa1{
+    display: flex;
+    align-items: center;
+    gap: 5rem;
+}
+
+#payment .wa-wa{
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+    
+
+
+
+#payment .ca{
+    display: flex;
+    flex-direction: column;
+    gap: 10rem;
+    text-align: center;
+    padding: 10px;
+    
+
+}
+
+#payment .mybut{
+    border: 1px solid;
+    border-radius: 2rem;
+    width: 80px;
+    height: 260px;
+    margin: 10px;
+}
+
+
+#payment .mybut1{
+    border: 1px solid;
+    border-radius: 2rem;
+    width: 80px;
+    height: 260px;
+    margin: 10px;
+    background-color: blueviolet;
+}
+
+
+#payment .payment-down{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+
+#payment .ci-moon{
+    display: flex;
+    align-items: center;
+}
+
+#payment .mywallet{
+    display: flex;
+    align-items: center;
+    margin-top: 8.5rem;
+    margin-left: -220px;
+ 
+   
+}
+
+
+#payment .ci{
+    display: flex;
+    align-items: center;
+    background-color: green;
+    margin: 10px;
+}
 
 /* payment section ends here */
 
@@ -262,7 +435,8 @@ padding: 10px;
     display: flex;
 
     align-items: center;
-    border: 1px solid;
+    border-radius: 1rem;
+    background-color: goldenrod;
     margin: 10px;
     width: 400px;
 }
@@ -316,3 +490,291 @@ padding: 10px;
 }
 
 /* description-down ends here */
+
+
+/* receiev payment starts here */
+
+#recieve .receive-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+
+#recieve p{
+    text-align: justify;
+    padding-bottom: 1rem;
+   
+}
+
+
+#recieve button{
+    padding: 1rem 2rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+
+
+#receive2 .receive2-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+#receive2 .ct{
+ 
+    background-color: orangered;
+    color: white;
+margin-left: 1rem;
+border-radius: 0.5rem;
+font-size: 1rem;
+width: 400px;
+padding: 1rem 3rem;
+  
+}
+
+#receive2 form{
+    display: grid;
+   
+}
+
+
+#receive2 input{
+    margin:1rem;
+    padding: 1rem 10rem;
+    width: 25rem;
+    border-radius: 0.5rem;
+    
+}
+
+#receive2 input[type="email"]{
+    padding-left: 1rem;
+}
+
+
+#receive2 input[type="password"]{
+    padding-left: 1rem;
+}
+
+
+#feature .feature-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem;
+}
+
+
+#feature p{
+    padding-bottom:1rem;
+}
+
+#feature .feature-left-right{
+    display: flex;
+}
+
+#feature .order-top{
+    display: flex;
+    align-items: center;
+   gap: 11rem;
+}
+
+#feature button{
+    padding: 1rem 2rem;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+
+
+#feature .act{
+    border: 1px solid;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 1rem;
+  
+    background-color: blueviolet;
+    
+  
+}
+
+
+#feature .act1{
+    border: 1px solid;
+    border-radius: 1rem;
+    height: 7rem;
+    width: 1rem;
+    margin-top: 3rem;
+   
+    background-color: orange;
+}
+
+
+#feature .act2{
+    border: 1px solid;
+    border-radius: 1rem;
+    height: 6rem;
+    width: 1rem;
+    margin-top: 4rem;
+   
+    background-color: blueviolet;
+}
+
+
+#feature .act3{
+    border: 1px solid;
+    border-radius: 1rem;
+    height: 10rem;
+    width: 1rem;
+  
+    background-color: orange;
+
+}
+
+
+
+#feature .feature-in{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    background-color: white;
+    padding: 20px;
+
+}
+
+#feature .ear{
+    background-color: white;
+}
+
+
+#feature .feature-left{
+    background-color: white;
+}
+
+#feature input{
+    display: grid;
+    padding: 0.2rem 1rem;
+    margin: 0.9rem;
+    width: 20rem;
+}
+
+#feature .user{
+    display: flex;
+    gap: 0.5rem;
+  
+}
+#feature .user-main{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#feature input[name="text"]{
+    width: 15rem;
+    background-color: #323232;
+}
+
+
+#feature input[name="text3"]{
+    width: 8rem;
+}
+
+#feature .in{
+    background-color: orange;
+    padding: 10px;
+}
+
+#feature .btt{
+    padding: 0.7rem 10rem;
+    margin-left: 0.4rem;
+ 
+}
+
+#feature form{
+    height: 52vh;
+    padding: 20px;
+}
+
+/* receive payment ends here */
+
+
+/* professiona starts here */
+
+
+#professional .field{
+    display: flex;
+    align-items: center;
+   justify-content: space-evenly;
+}
+#professional fieldset{
+ width: 450px;  
+ height:250px ;
+ padding: 20px;
+ border-bottom-right-radius: 2rem; 
+ background-color: white;
+}
+
+#professional .fa-star{
+    padding-bottom: 20px;
+    color: orange;
+}
+
+#professional legend{
+    border: 1px solid;
+    border-radius: 2rem;
+    width: 50px;
+    height: 50px;
+    background-color: blueviolet;
+}
+
+#professional .deviper{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+#professional{
+    padding-bottom: 10rem;
+}
+/* professionall ends here */
+
+
+/* get start starts here */
+#get-started button{
+    padding: 0.8rem 3rem;
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 1.3rem;
+   
+   
+}
+
+#get-started{
+    padding-bottom: 10rem;
+}
+
+#get-started .get{
+    display: flex;
+    justify-content: center;
+}
+
+/* get start ends here */
+
+
+/* footer starts here */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-bottom: 2rem;
+}
+/* footer ends here */
