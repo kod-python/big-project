@@ -30,6 +30,7 @@ body{
 
 .all-in-all{
     background-color: goldenrod;
+    margin-left: -2rem;
     
 }
 
@@ -41,8 +42,15 @@ body{
 
 .design-all{
     display: flex;
-
     
+    
+}
+
+
+
+
+.design-top{
+   margin-top: 5rem;
 }
 /* universal section ends here */
 
@@ -85,6 +93,12 @@ nav  ul{
     margin-left: 100px;
     
   
+}
+
+
+nav ul li a:hover{
+  color: yellow;
+  text-decoration: underline;
 }
 
 .nav-top{
@@ -130,10 +144,10 @@ nav  h2{
     
 }
 
-#nav-main .design-top{
+/* #nav-main .design-top{
     background-color: aliceblue;
    
-}
+} */
 
 /* nav section ends here */
 
@@ -187,7 +201,8 @@ nav  h2{
 #payment .payment-two{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    padding: 10px;
+    /* justify-content: space-around; */
 }
 
 
@@ -197,6 +212,11 @@ nav  h2{
     margin: 1rem;
 }
 
+
+#payment nav ul li a{
+    color: black;
+    
+}
 
 #payment .icons-main{
     margin-top: 90px;
@@ -313,8 +333,7 @@ gap: 10rem;
 #payment .ci{
     display: flex;
     align-items: center;
-    background-color: green;
-    margin: 10px;
+    background-color:whitesmoke
 }
 
 
@@ -357,7 +376,7 @@ gap: 10rem;
 }
 
 #payment .pay-all{
-    background-color: snow;
+    background-color: wheat;
    /* width: 1600px; */
     margin-left: 10rem;
     
@@ -369,6 +388,10 @@ gap: 10rem;
  
 }
 
+
+#payment .fa-signal{
+    color: green;
+}
 
 /* payment section ends here */
 
@@ -393,10 +416,13 @@ gap: 10rem;
 
 #company .open{
     display: flex;
+    align-items: center;
 }
 
 #company .morph{
     display: flex;
+    align-items: center;
+    gap: 1.5rem;
 }
 
 #company .monday{
