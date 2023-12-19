@@ -895,3 +895,13 @@ footer{
     padding-bottom: 2rem;
 }
 /* footer ends here */
+
+/* fin starts */
+.fin{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    font-style: oblique;
+    color: rgb(160, 73, 90);
+}
+/* fin ends */
