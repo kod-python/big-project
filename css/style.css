@@ -25,6 +25,25 @@ body{
     width: 38%;
     margin: 0 auto;
 }
+
+
+
+.all-in-all{
+    background-color: goldenrod;
+    
+}
+
+
+.com-all{
+    background-color: white;
+}
+
+
+.design-all{
+    display: flex;
+
+    
+}
 /* universal section ends here */
 
 /* header section starts here */
@@ -36,13 +55,14 @@ header .head h1{
    text-align: center;
    background-color: blueviolet;
    padding: 10px;
-   color: white;      
+   color: white;   
+    
 }
 
 
 
 header .head{
-    margin-top: 10px;
+    padding-bottom: 20px;
     display: flex;
     justify-content: center;
 }
@@ -70,7 +90,8 @@ nav  ul{
 .nav-top{
     display: flex;
     align-items: center;
-    gap: 15rem;
+ justify-content: space-around;
+ 
 
    
    
@@ -109,6 +130,11 @@ nav  h2{
     
 }
 
+#nav-main .design-top{
+    background-color: aliceblue;
+   
+}
+
 /* nav section ends here */
 
 
@@ -125,6 +151,7 @@ nav  h2{
     display: flex;
     align-items: center;
    padding-bottom: 50px;
+   gap: 3rem;
 }
 
 #payment .gad{
@@ -134,10 +161,14 @@ nav  h2{
 
 #payment .free{
     display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 #payment .great{
     display: flex;
+    align-items: center;
+    gap: 0.5rem;
 }
 
 #payment .free-great{
@@ -147,9 +178,10 @@ nav  h2{
 }
 
 #payment button{
-    padding: 0.7rem 3rem;
+    padding:1rem 3rem;
     background-color: blueviolet;
     border-radius: 0.5rem;
+    color: white;
 }
 
 #payment .payment-two{
@@ -257,7 +289,8 @@ gap: 10rem;
     display: flex;
     align-items: center;
     margin-top: -3rem;
-    /* justify-content: space-evenly; */
+    width: 800px;
+   
 
 }
 
@@ -332,7 +365,7 @@ gap: 10rem;
 }
 
 #payment .payment-one{
-    margin-top: -10rem;
+    margin-top: -15rem;
  
 }
 
@@ -342,9 +375,7 @@ gap: 10rem;
 
 
 /* companies starts here */
-#company{
-    margin-top: 40px;
-}
+
 
 
 #company h2{
