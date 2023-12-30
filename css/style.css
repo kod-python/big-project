@@ -91,8 +91,7 @@ nav  ul{
     justify-content: center;
     align-items: center;
     margin-left: 100px;
-    
-  
+ 
 }
 
 
@@ -171,6 +170,7 @@ nav  h2{
 #payment .gad{
     display: flex;
     align-items: center;
+    gap: 0.2rem;
 }
 
 #payment .free{
@@ -226,7 +226,7 @@ nav  h2{
 
     background-color: white;
     /* padding: 25px; */
-    width: 220px;
+    width: 250px;
     height: 160px;
    margin-left: -5rem;
    border-radius: 0.5rem;
@@ -239,7 +239,15 @@ nav  h2{
     display: flex;
     align-items: center;
     padding-bottom: 20px;
+    gap: 0.5rem;
 }
+
+#payment .to{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
 
 
 
@@ -253,6 +261,10 @@ margin-top: 20px;
 
 }
 
+
+#payment .wallet{
+    margin-left:2rem ;
+}
 
 #payment .wa{
 display: flex;
@@ -289,18 +301,24 @@ gap: 10rem;
 #payment .mybut{
     border: 1px solid;
     border-radius: 2rem;
-    width: 50px;
+    width: 65px;
     height: 260px;
-    margin: 10px;
+    margin: 5px;
 }
+
+#payment .fa-cancel{
+    color: red;
+    font-size: 1.5rem;
+}
+
 
 
 #payment .mybut1{
     border: 1px solid;
     border-radius: 2rem;
-    width: 50px;
+    width: 65px;
     height: 260px;
-    margin: 10px;
+    margin: 5px;
     background-color: blueviolet;
 }
 
@@ -318,6 +336,26 @@ gap: 10rem;
 #payment .ci-moon{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+}
+
+
+#payment .moon .fa-greater-than{
+    font-size: 0.5rem;
+   
+ 
+  
+}
+
+#payment .gthan{
+    border: 1px solid;
+    width: 30px;
+  
+    border-radius: 0.3rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    
 }
 
 #payment .mywallet{
@@ -333,22 +371,25 @@ gap: 10rem;
 #payment .ci{
     display: flex;
     align-items: center;
-    background-color:whitesmoke
+    background-color:whitesmoke;
+    gap: 0.5rem;
 }
 
 
 #payment .cii{
     display: flex;
     align-items: center;
-   
+   gap: 0.5rem;
     margin: 16px;
 }
+
 
 
 #payment .ciii{
     display: flex;
     align-items: center;
     margin: 5px;
+    gap: 0.5rem;
    
  
 }
@@ -377,8 +418,9 @@ gap: 10rem;
 
 #payment .pay-all{
     background-color: wheat;
-   /* width: 1600px; */
-    margin-left: 10rem;
+ 
+    margin-left: 1rem;
+    width: 1100px;
     
 
 }
@@ -467,6 +509,11 @@ padding: 20px;
 #description .bar2{
    
     padding: 20px;
+    gap: 0.5rem;
+}
+
+#description .fa-signal{
+    color: green;
 }
 
 #description .bar2{
@@ -534,10 +581,11 @@ padding: 10px;
 
 
 
+
 #description .jj{
     display: flex;
     align-items: center;
-    gap: 12rem;
+    gap: 14rem;
    
 }
 
@@ -577,6 +625,8 @@ padding: 10px;
     font-size: 2rem;
     color: blueviolet;
 }
+
+
 
 
 /* fa section ends here */
@@ -784,12 +834,27 @@ padding: 1rem 3rem;
 #feature .user{
     display: flex;
     gap: 0.5rem;
+    align-items: center;
   
 }
+
+#feature .cancel{
+    border: 1px solid;
+    border-radius: 2rem;
+    width: 20px;
+    height: 20px;
+}
+
+#feature .cancel .fa-close{
+    display: flex;
+    justify-content: center;
+}
+
 #feature .user-main{
     display: flex;
     align-items: center;
     padding: 10px;
+    gap: 15rem;
 }
 
 #feature input[name="text"]{
@@ -808,7 +873,7 @@ padding: 1rem 3rem;
 }
 
 #feature .btt{
-    padding: 0.7rem 10rem;
+    padding: 0.9rem 12rem;
     margin-left: 0.4rem;
  
 }
@@ -854,6 +919,7 @@ padding: 1rem 3rem;
     display: flex;
     align-items: center;
     margin-top: 20px;
+    gap: 0.5rem;
 }
 
 #professional{
